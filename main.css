@@ -1,0 +1,63 @@
+/**** NAVEGACION ***/
+
+header{
+    
+    text-align: center;
+    background: url("http://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+    background-size: cover;
+    
+    padding: 10px;
+    
+}
+
+img{
+    
+    width: 45%;
+    margin: 40px 0px  0px 0px;
+    border: 7px solid yellow;
+    border-radius: 20px;
+
+}
+a{
+    
+    color: aqua;
+    padding: 0px 10px 0px 12px;
+    
+}
+h1{
+    
+    font-size: 35px;
+    color:black;
+}
+ul{
+    background: red;
+    padding: 15px;
+        
+}
+    
+    li{
+      
+        list-style: none;
+        display: inline;
+}
+ 
+article{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+
+}
+@media(max-width:500px) {
+    h1{
+        font-size: 20px;
+    }
+  
+li{
+        
+        display:block;
+ 
+}
+    
+}
+    
